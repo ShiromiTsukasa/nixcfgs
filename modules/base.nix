@@ -43,4 +43,8 @@ in
     htop
     btop
   ];
+
+  security.sudo.extraConfig = ''
+    Defaults pwfeedback
+  '';
 }
